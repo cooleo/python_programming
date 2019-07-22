@@ -20,7 +20,7 @@ for n in range (2, 10):
    else:
         print(n, 'is a prime number')
 
-
+#continue
 for num in range(2, 10):
     if num % 2 == 0:
         print("Found an even number ", num)
