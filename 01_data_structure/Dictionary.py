@@ -1,12 +1,10 @@
-int_data = [1, 2, 3, 4, 5, 6]
-str_data = ['1', '2', '3', '4', '5', '6']
+dic= {'hung':1, 'age':39, 'from':'Vietnam'}
+print(dic)
+print(dic['hung'])
+print(dic['from'])
 
-class Node:
-    def __init(data):
-        self.data = None
-        self.left = None
-        self.right = None
+array_of_dic = [{'name':'Hung'}, {'name':'Kul'}, {'name':'Lien'}]
 
-objec_data = [Node(1), Node(2), Node(3), Node(4), Node(5)]
+print(array_of_dic)
 
-print(objec_data)
+print(array_of_dic[0]['name'])
