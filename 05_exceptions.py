@@ -38,3 +38,19 @@ for cls in [A, B, C, D]:
  except:
    print('Unexpected error:', sys.exc_info()[0])
    raise
+  
+  import sys
+
+try:
+ f = open(r"hello.txt")
+ for line in f:
+   try:
+    s = int(line.strip())
+    print(s)
+   except ValueError:
+    print('Could not convert data to integer')
+except OSError as err:
+    print('OS error {0}'.format(err))
+
+except:
+    print('Unexpected error:', sys.exc_info()[0])
