@@ -54,3 +54,8 @@ except OSError as err:
 
 except:
     print('Unexpected error:', sys.exc_info()[0])
+    
+try:
+    raise Exception('Hello world error')
+except Exception as err:
+    print('Exeption:', err)
